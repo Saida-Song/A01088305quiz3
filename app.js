@@ -95,7 +95,7 @@ function addMovie() {
     updateMovieHistory(userTypedText);
 }
 
-// map function will loop through an exist list with the function in it and create a new list
+// map function will loop through an exist list with the function in it and create a new list 
 let Alist = [4.132135, 8.1351, 6.1, 3.1546, 2.1321684]
 function mapNamed(Alist) {
     newAlist = Alist.map(Math.trunc);
