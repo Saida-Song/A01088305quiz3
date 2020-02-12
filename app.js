@@ -93,3 +93,20 @@ function addMovie() {
     // **3 Add to myMovies Object: watched zero times
     updateMovieHistory(userTypedText);
 }
+
+// map function will loop through an exist list with the function in it and create a new list
+let Alist = [4.132135, 8.1351, 6.1, 3.1546, 2.1321684]
+function mapNamed(Alist) {
+    newAlist = Alist.map(Math.trunc);
+    console.log(newAlist);
+}
+
+var numbers = [65, 44, 12, 4];
+var newarray = numbers.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+
+mapNamed(Alist);
+console.log(newarray);
